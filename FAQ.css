@@ -1,0 +1,140 @@
+li{
+	list-style: none;
+	font-size: 16px;
+	margin-left: -40px; /* remove ul indent */
+}
+
+h2{
+	text-align: left;
+}
+
+img{
+	padding: 1em 2em 2em 0em;
+}
+
+.shippingtypes {		
+	margin-top:-25px; 	/* moves tables up */
+	width: 100%; 		/* contains tables so they'll be responsive */
+}
+
+.type1 {
+	width: 45%;
+	font-size: 16px;
+	float: left;
+	clear: left;
+	margin-right: 2em;
+}
+
+.type2 {
+	width: 45%;
+	font-size:16px;
+	float:left;
+}
+
+tr, td {
+	width: 100%;
+}
+
+.test tr,td {
+	padding:5px;
+	min-width:70px;	/* without this, the first column will be really wide and the others really small. there is probably a better solution than this.
+					(similar to what happens when FAQ2 kicks in <1000 pixels with the first column being wider) */
+}
+
+p{
+	font-size: 16px;
+	font-weight:normal;
+	text-align: left;
+}
+
+#container{
+	padding: 0.5em 2em;
+}
+
+body, textarea, select {
+	font-family: Ultima, sans-serif;
+	font-size: 20px;
+}
+
+#logo{
+	padding: 0em 1.5em 0em 0em;
+	margin: 0em;
+	float:left;
+}
+
+nav{
+	padding: 0em;
+	padding-top: 2.5em;
+	margin: 0em;
+}
+
+nav li { /* <--- links @ top */
+	padding-right: 2.5em;
+	padding-left: 2.5em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+	margin-top:	0em;
+	display:inline;
+	list-style: none;
+	text-decoration: none;
+	color:  #bbbbbb;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color:#000000;
+}
+
+/*
+css of classes
+
+*/
+
+/* @media screen and (max-width: 1366px) {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+}
+ */
+ 
+.shippingrates{
+	margin-top: 1em;
+	clear: left; 
+	float: left; 
+	width: 100%; 			/* contains finishes & returns so they'll be responsive */
+}
+
+.printfinishes {
+	width: 45%;
+	float: left;
+	clear: left;
+	margin-right: 1.5em;
+}
+
+.returns {
+	width: 45%;
+	float: left;
+}
+
+
+.postagelogo{
+	margin-top: -45px;
+	padding-left: 25px;
+	margin-bottom: -25px; 		/* keeps logo from pushing text below down too far */
+	float:left;
+}
+
+@font-face {
+	font-family: Ultima;
+	src: url('Ultima/UltimaPDac-UltraLight.ttf');
+}
+
+footer {
+	padding-top: 0.5em;
+	clear: left;
+}
