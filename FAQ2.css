@@ -36,7 +36,7 @@ tr,td {
 p{
 	font-size: 16px;
 	font-weight:normal;
-	text-align: left;
+	text-align: justify;
 }
 
 #container{
@@ -111,14 +111,6 @@ css of classes
 .returns {
 	width: 45%;
 	float: left;
-}
-
-
-.postagelogo{
-	margin-top: -45px;
-	padding-left: 25px;
-	margin-bottom: -25px; 		/* keeps logo from pushing text below down too far */
-	float:left;
 }
 
 @font-face {
