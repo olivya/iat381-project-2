@@ -1,19 +1,12 @@
-html{
-
-}
-
 h2{
 	text-align: center;
 }
 
-img{
-	padding: 1em 2em 2em 0em;
-}
-
 p{
-	font-size: 14px;
+	font-size: 16px;
 	font-weight:normal;
-	text-align: left;
+	text-align: justify;
+	line-height: 110%;
 }
 
 #container{
@@ -21,7 +14,7 @@ p{
 }
 
 body, textarea, select, li{
-	font-family: UltimaPDac, Sans-serif;
+	font-family: thefont, Sans-serif;
 	font-size: 20px;
 }
 
@@ -64,13 +57,6 @@ css of classes
 
 */
 
-.images{
-	clear: left;
-	float: left;
-	margin-top: 2em;
-	padding-right: 2em;
-}
-
 /* @media screen and (max-width: 1366px) {
 	img {
 		width: 50px;
@@ -79,16 +65,43 @@ css of classes
 }
  */
  
-.content{
-	margin-top: 2em;
-	padding-right: 2em;
-	width: 88%
+.contentAndImages {
+	width:100%;
+}
+
+.brad {
+	clear:left;
+	float:left;
+	padding-right:1.5em;
+	width: 45%;
+	max-width:500px;
+}
+
+.john {
+	float:left;
+	width: 45%;
+	max-width:500px;
+}
+
+img {
+	max-width:100%;
+	max-height: 500px;
+	margin-top: 1em;
+	/* the following centers the image: */
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .footer{
 	clear: left;
 	padding-left: 0em;
 	padding-right: 3em;
-	font-size: 12px;
+	font-size: 14px;
 
+}
+
+@font-face {
+	font-family: thefont;
+	src: url('quicksand/Quicksand_Light.otf');
 }
