@@ -1,5 +1,5 @@
 h2{
-	text-align: center;
+  text-align: center;
 }
 
 img{
@@ -71,8 +71,6 @@ css of classes
  
 .contentAndImages {
 	width:100%;
-	display:block;
-	margin:0 auto;
 }
 
 .brad {
