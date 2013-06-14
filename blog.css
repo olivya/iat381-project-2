@@ -1,0 +1,128 @@
+h2{
+  font-size:22px;
+}
+
+h1{
+	font-size:14px;
+	text-transform:uppercase;
+	border-bottom:1px dashed;
+	padding-bottom:10px;
+	padding-top:15px;
+	letter-spacing:3px;
+}
+
+p{
+	font-size: 16px;
+	font-weight:normal;
+	text-align: justify;
+	line-height: 110%;
+}
+
+/*#container{
+	padding: 0.5em 2em;
+}*/
+
+body, textarea, select, li{
+	font-family: thefont, Sans-serif;
+	font-size: 20px;
+}
+
+#logo{
+	padding: 0em 2em 0em 0em;
+	margin: 0em;
+	float:left;
+	text-align: center;
+}
+
+nav{
+	padding: 0em;
+	padding-top: 2.5em;
+	margin: 0em;
+}
+
+nav li {
+	padding-right: 2.5em;
+	padding-left: 2.5em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+	margin-top:	0em;
+	display:inline;
+	list-style: none;
+	text-decoration: none;
+	color:  #DEDEDE;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color:#000000;
+}
+
+/*
+css of classes
+
+*/
+
+/* @media screen and (max-width: 1366px) {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+}
+ */
+ 
+.blog {
+	padding-top:1em;
+	clear:left;
+	width:70%;
+	max-width:1000px;
+	margin:auto;
+}
+
+.attribution{
+	font-size:12px;
+	text-transform:uppercase;
+	line-height:125%;
+	padding-bottom:10px;
+}
+
+.footer{
+	clear: left;
+	padding-left: 0em;
+	padding-right: 3em;
+	font-size: 14px;
+}
+
+#beach {
+	float:right;
+	width:70%;
+	padding-left:15px;
+	padding-bottom:10px;
+}
+
+#first {
+	width:80%;
+	display:block;
+	margin:auto;
+	padding-top:5px;
+	padding-bottom:4px;
+}
+
+#caption {
+	font-style:italic;
+	text-align:center;
+	font-size:13px;
+}
+
+.bottompost {
+	border-bottom:1px dashed;
+	margin-bottom:3em;
+}
+
+@font-face {
+	font-family: thefont;
+	src: url('quicksand/Quicksand_Light.otf');
+}
