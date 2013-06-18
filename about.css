@@ -19,21 +19,31 @@ body, textarea, select, li{
 }
 
 #logo{
-	padding: 0em 2em 0em 0em;
+	padding: 0em 1.5em 0em 0em;
 	margin: 0em;
 	float:left;
-	text-align: center;
+
 }
 
 nav{
 	padding: 0em;
 	padding-top: 2.5em;
 	margin: 0em;
+
+}
+
+ul{
+	clear: left;
+	margin-left: -2em;
+
 }
 
 nav li {
-	padding-right: 2.5em;
-	padding-left: 2.5em;
+	background-color: #000000;
+	float: left;
+	clear: right;
+	padding-right: 3.4em;
+	padding-left: 3.4em;
 	padding-bottom: 0em;
 	margin-bottom: 0em;
 	margin-top:	0em;
@@ -41,6 +51,8 @@ nav li {
 	list-style: none;
 	text-decoration: none;
 	color:  #DEDEDE;
+	border: 2px solid #000000;
+
 }
 
 a{

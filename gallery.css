@@ -1,9 +1,9 @@
 html{
-
+	
 }
 
 #container{
-	padding: 0.5em 2em;
+	padding: 0.5em 1em;
 }
 
 body, textarea, select, li{
@@ -11,13 +11,14 @@ body, textarea, select, li{
 	font-size: 20px;
 }
 
-h2{
+/* min-width: px, %; */
 
+img{
+	padding: 2em 2em 0em 0em;
 }
 
 #logo{
-	padding: 0em 2em 0em 0em;
-	margin: 0em;
+	padding: 0em 1.5em 0em 0em;
 	float:left;
 }
 
@@ -27,16 +28,25 @@ nav{
 	margin: 0em;
 }
 
+ul{
+	clear: left;
+	margin-left: -2em;
+}
+
 nav li {
-	padding-right: 2.5em;
-	padding-left: 2.5em;
+	background-color: #000000;
+	float: left;
+	clear: right;
+	padding-right: 3.4em;
+	padding-left: 3.4em;
 	padding-bottom: 0em;
-	margin-bottom: 0em;
+	margin-bottom: 1em;
 	margin-top:	0em;
 	display:inline;
 	list-style: none;
 	text-decoration: none;
 	color:  #DEDEDE;
+	border: 2px solid #000000;
 }
 
 a{
@@ -45,7 +55,7 @@ a{
 }
 
 a:hover {
-	color:#000000;
+	color:#FFFFFF;
 }
 
 a:active {
@@ -56,44 +66,38 @@ a:active {
 css of classes
 
 */
-.contentAndImages{
-	
+.content ul{
+	padding-top: 1em;
+	text-align: center;
 }
 
-section{
+.content ul li{
+
+	display: inline;
+	font-size: 16px;
 
 }
 
 .images{
-	clear: left;
 	float: left;
-	margin-top: -1.5em;
-	padding-right: 3em;
-
+	margin-top: -2em;
+	width: 100%;
+	text-align: center;
+	
 }
 
-/* @media screen and (max-width: 1366px) {
+ /* @media screen and (max-width: 800px) {
 	img {
 		width: 50px;
 		height: 50px;
 	}
-}
- */
-.lowerImages {
-
-}
-
-.content{
-	margin-top: 2em;
-	padding-right: 2em;
-	text-align: center;
-
-}
-
+} */
+ 
 .footer{
 	clear: left;
 	padding-left: 0em;
 	padding-right: 3em;
 	font-size: 12px;
+	text-align: center;
 
 }
